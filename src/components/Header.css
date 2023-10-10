@@ -1,0 +1,33 @@
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+ }
+ .cartItem{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    margin-bottom: 10px;
+ }
+ .cartItemImg{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit:cover;
+ }
+ .cartItemDetail{
+    display: flex;
+    padding:0 10px;
+    flex-direction:column;
+ }
+
+ @media(max-width:750px){
+   .search{
+      width: 150px;
+   }
+ }
+ .search{
+   width: 500px;
+ }
+ .logo{
+   font-weight: bold;
+ }
